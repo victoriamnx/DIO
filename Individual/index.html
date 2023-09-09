@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="components/images/favicon.ico" type="image/x-icon"> 
+
+    <link rel="stylesheet" href="style.css" />
+    <title>DIO | Teste de Algoritmo</title>
+  </head>
+
+  <body>
+    <header>
+      <img src="components/images/icon-hamburger.svg" alt="" />
+      <ul>
+        <!-- <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li> -->
+      </ul>
+    </header>
+
+    <main class="container">
+      <div id="welcome">
+        <h1>✦ Teste o algoritmo para dizer olá! ✦</h1>
+        <form action="/form/submit" method="get">
+          <label>Nome:</label>
+          <input type="text" name="first_name" />
+          <br />
+          <label>Sobrenome:</label>
+          <input type="text" name="last_name" />
+          <br />
+          <label>E-Mail:</label>
+          <input type="email" name="user_email" />
+          <br />
+        </form>
+      </div>
+      <div class="testescript">
+        <script src="script.js"></script>
+        <button
+          class="button"
+          onclick="mostrarMensagem('Olá Mundo!')"
+          title="Clique para rodar o script"
+        >
+          Diga olá ao mundo
+        </button>
+        <br />
+        <p style="font-weight: bold" id="mensagem"></p>
+      </div>
+    </main>
+
+    <!-- <section class="container">
+      <div id="new">
+        <h1>✦ Vamos ver mais coisas legais? ✦</h1>
+      </div>
+    </section>
+
+    <section class="newp">
+      <script src="script.js"></script>
+      <button class="button" onclick="IrPara('Ir para outra página.')">SIM</button>
+      <button class="button" onclick="IrPara('Não, que pena vamos cuidar disso!')">NÃO</button>
+      <p style="font-weight: bold;" id="newmsg"></p>
+    </section> -->
+
+    <div class="attribution">
+      <span> Coded by&nbsp;</span
+      ><a href="https://github.com/victoriamnx" title="Go to Github profile"
+        >victoriamnx.</a
+      >
+    </div>
+  </body>
+</html>
